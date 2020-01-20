@@ -1,0 +1,46 @@
+name: animal_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  flare_flutter: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background.png
+    - assets/Bird.flr
+    - assets/Dog.flr
+    - assets/Lion.flr
+    
+  fonts:
+    - family: Righteous
+      fonts:
+        - asset: fonts/Righteous/Righteous-Regular.ttf
+    
+    - family: Oswald
+      fonts:
+        - asset: fonts/Oswald/Oswald-Regular.ttf
+        - asset: fonts/Oswald/Oswald-Bold.ttf
+          weight: 800
+        - asset: fonts/Oswald/Oswald-SemiBold.ttf
+          weight: 700
+        - asset: fonts/Oswald/Oswald-Medium.ttf
+          weight: 600
+        - asset: fonts/Oswald/Oswald-Light.ttf
+          weight: 500
+        - asset: fonts/Oswald/Oswald-ExtraLight.ttf
+          weight: 400
+  

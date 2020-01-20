@@ -17,4 +17,4 @@ The animal clock uses the included "digital_clock" as the starting point. Howeve
 
 The animated characters were created in Flare (Rive.app) and imported using the flutter_flare plugin.
 
-Many more animals were scheduled to be introduced, but due to lack of time, they will make their debuts in future versions.
+Many more animals were scheduled to be introduced, but due to lack of time, they will make their debuts in the future versions.

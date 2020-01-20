@@ -13,7 +13,7 @@ You might also catch other living animals pass through the scene, so keep your e
 
 ## About the UI
 
-The animal clock use the included "digital_clock" as the starting point. However, the resolution seems to be a bit inconsistent between iOS and Android as what works fine in Android overflows in iOS by 2px in width.
+The animal clock uses the included "digital_clock" as the starting point. However, the resolution seems to be a bit inconsistent between iOS and Android as what works fine in Android overflows in iOS by 2px in width.
 
 The animated characters were created in Flare (Rive.app) and imported using the flutter_flare plugin.
 
